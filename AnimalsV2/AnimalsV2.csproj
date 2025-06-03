@@ -56,6 +56,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controlers\AnimalController.cs" />
+    <Compile Include="Controlers\BreedTypeController.cs" />
     <Compile Include="Data\Animal.cs" />
     <Compile Include="Data\AnimalsContext.cs" />
     <Compile Include="Data\BreedType.cs" />
@@ -72,6 +74,9 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202506021943541_testmigration.resx">
       <DependentUpon>202506021943541_testmigration.cs</DependentUpon>
     </EmbeddedResource>
